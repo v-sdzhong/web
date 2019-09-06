@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /
+  port: 9091
+
+spring:
+  thymeleaf:
+    encoding: utf-8
+    prefix: classpath:/templates/
+    mode: HTML
+
